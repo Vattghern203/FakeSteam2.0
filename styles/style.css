@@ -68,6 +68,19 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 16px;
+    margin: 64px auto;
+}
+
+.thumb {
+    transition: 0.4s;
+}
+
+.thumb:hover {
+    transform: scale(1.1);
+}
+
+.second-container > img {
+    height: 200px;
 }
 
 .store-container-second, .store-container-third {
