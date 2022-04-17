@@ -1,2 +1,77 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+    --header-bg: #171A21;
+    --font-color: #B8B6B4;
+}
+
+#logo {
+    height: 75px;
+}
+
+body {
+    font-family: 'Motiva Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background: linear-gradient(180deg, #2A475E 0%, #1B2838 80%);
+    color: var(--font-color);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 56px;
+    gap: 56px;
+    background-color: var(--header-bg);
+}
+
+nav > a {
+    color: var(--font-color);
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 56px;
+    margin: 32px auto;
+    height: 100%;
+    width: 100%;
+}
+
+.store-container-inner {
+    box-shadow: 1px 1px 1px 4px #302c2c63;
+}
+
+.second-container {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.store-container-second, .store-container-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 56px auto;
+}
+
+.store-container-second > img, .store-container-third > img {
+    height: 200px;
+}
