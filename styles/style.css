@@ -104,3 +104,7 @@ footer {
     height: 12rem;
     width: 100%;
 }
+
+html, body {
+    min-height: 100%;
+}

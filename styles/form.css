@@ -1,0 +1,34 @@
+@import url(style.css);
+
+:root {
+    --form-bg: #212429;
+    --input-bg: #32353C;
+    --font-cl: 
+}
+
+main {
+    background-color: var(--form-bg);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+form > input {
+    background-color: var(--input-bg);
+    border: none;
+    text-decoration: none;
+    outline: none;
+    padding: 12px 2px;
+    width: 18rem;
+    border-radius: 2px;
+    color
+}
