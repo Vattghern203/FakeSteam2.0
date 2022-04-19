@@ -30,5 +30,5 @@ form > input {
     padding: 12px 2px;
     width: 18rem;
     border-radius: 2px;
-    color
+    color: var(--font-cl);
 }
