@@ -1,9 +1,30 @@
+@import url(style.css);
+
+body {
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/584640/page_bg_generated_v6b.jpg?t=1633256758);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    width: fit-content;
+    font-weight: 300;
+}
+
+.container {
+    background-color: #1b2838c5;
+    width: fit-content;
+    height: fit-content;
+    gap: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: initial;
-    gap: 16px;
+    width: fit-content;
 }
 
 video {
@@ -23,12 +44,20 @@ video {
     align-items: flex-end;
 }
 
-.store-right > p {
-    word-wrap: break-word;
-}
-
 .store-right > img {
     width: 324px;
     height: 151px;
+}
 
+.store-description {
+    width: 324px;
+    height: 151px;
+    word-wrap: break-word;
+    margin-top: 8px;
+    padding: 4px;
+}
+
+.store-bottom {
+    margin-top: 32px;
+    
 }
