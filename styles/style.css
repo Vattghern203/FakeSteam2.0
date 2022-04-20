@@ -79,7 +79,7 @@ main {
     transform: scale(1.1);
 }
 
-.second-container > img {
+.second-container > img, .second-container > a > img {
     height: 200px;
 }
 

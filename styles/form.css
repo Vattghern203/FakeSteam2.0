@@ -32,3 +32,8 @@ form > input {
     border-radius: 2px;
     color: var(--font-cl);
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
