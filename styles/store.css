@@ -57,6 +57,29 @@ video {
     padding: 4px;
 }
 
+.store-review {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-top: 16px;
+}
+
+.store-review-1, .store-review-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px 4px;
+}
+
+
+.review-highlight {
+    color: #556772;
+}
+
+.review-rating {
+    color: #66C0F4;
+}
+
 .store-bottom {
     margin-top: 32px;
 }

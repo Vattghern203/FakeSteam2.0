@@ -29,9 +29,9 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    text-align: left;
     align-items: center;
     justify-content: center;
+    flex-grow: initial;
     padding: 36px 56px;
     gap: 56px;
     background-color: var(--header-bg);
