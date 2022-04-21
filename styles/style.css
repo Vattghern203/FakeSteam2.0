@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url(checkout.css);
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -103,8 +101,21 @@ main {
 }
 
 .btn {
-    background-color: var(--buy-btn-normal);
+    background-color: #648037;
+    color: #c1e686;
+    padding: 10px 12px;
+    border-radius: 4px;
 }
+
+.btn:hover {
+    background-color: #849A29;
+    color: whitesmoke;
+}
+
+.bnt:visited {
+    color: #c1e686;
+}
+
 
 footer {
     display: grid;
