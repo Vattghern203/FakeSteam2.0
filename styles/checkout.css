@@ -60,7 +60,15 @@
     border-radius: 3px;
 }
 
-.cart-purchase > button:hover {
+.btn-purchase {
+    background-color: var(--buy-btn-normal);
+    color: var(--buy-color-standard);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-purchase:hover {
     background-color: var(--buy-btn-hover);
     color: whitesmoke;
     cursor: pointer;

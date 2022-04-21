@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url(checkout.css);
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,7 +16,7 @@
 }
 
 #logo {
-    height: 75px;
+    height: 70px;
 }
 
 body {
@@ -41,6 +43,10 @@ nav > a {
     color: var(--font-color);
     font-size: large;
     padding: 4px;
+}
+
+nav > a:hover {
+    color: whitesmoke;
 }
 
 main {
@@ -94,6 +100,10 @@ main {
 
 .store-container-second > img, .store-container-third > img {
     height: 200px;
+}
+
+.btn {
+    background-color: var(--buy-btn-normal);
 }
 
 footer {
